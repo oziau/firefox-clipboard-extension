@@ -1,4 +1,5 @@
 // background.js
+var browser = browser || chrome;
 
 let clipboardHistory = [];
 let snippets = {};

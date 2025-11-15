@@ -1,2 +1,0 @@
-This was submitted and approved by mozilla on 2025-11-15 it is your firefox clipboard extension.
-You can import it into firefox and it will remain permenently.
