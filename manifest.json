@@ -1,8 +1,8 @@
 {
   "manifest_version": 2,
-  "name": "Ians Firefox Clipboard Extension 01",
+  "name": "Ians Clipboard Extension 01",
   "version": "1.1",
-  "description": "This clipboard extension was designed and built by Ian with Perplexity assistance it is for Firefox browser",
+  "description": "This clipboard extension was designed and built by Ian with Perplexity assistance. It is for FF browser.",
   "permissions": [
     "storage",
     "clipboardWrite",
@@ -26,8 +26,18 @@
   ],
   "browser_specific_settings": {
     "gecko": {
-      "id": "clipboardhistoryextension@iana.au",
-      "update_url": "https://raw.githubusercontent.com/oziau/firefox-clipboard-extension/main/updates.json"
+      "id": "oziau.clipboardhistory@github",
+      "update_url": "https://raw.githubusercontent.com/oziau/firefox-clipboard-extension/main/updates.json",
+      "data_collection_permissions": {
+        "required": ["none"],
+        "collects_statistics": false,
+        "collects_ip": false,
+        "collects_location": false,
+        "collects_browsing_activity": false,
+        "collects_contacts": false,
+        "collects_emails": false,
+        "collects_forms": false
+      }
     }
   }
 }
